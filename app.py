@@ -41,7 +41,7 @@ def submit():
     try:
         #the input provided by the user is
         # stored in here :temp
-        temp = int(hour.get())*36000 + int(minute.get))*60 + int(second.get())
+        temp = int(hour.get())*36000 + int(minute.get)*60 + int(second.get())
     except:
         print("Please input the right value")
     while temp >-1:
