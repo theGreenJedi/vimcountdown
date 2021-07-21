@@ -1,4 +1,4 @@
- import time
+import time
 from tkinter import *
 from tkinter import messagebox
 # create Tk window
